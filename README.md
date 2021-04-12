@@ -15,3 +15,5 @@
 
 # 特别鸣谢
 
+https://github.com/CainKernel/CainCamera
+https://github.com/shaopx/VideoClipEditViewTest
