@@ -1,0 +1,12 @@
+R_DEF: Internal format may change without notice
+local
+raw def_vertext
+raw fragment_canying
+raw fragment_flash
+raw fragment_itch
+raw fragment_scale
+raw fragment_shake
+raw fragment_sharder
+raw fragment_soulout
+raw fragment_split4
+raw vetext_sharder

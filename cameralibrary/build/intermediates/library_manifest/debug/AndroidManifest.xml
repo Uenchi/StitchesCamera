@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.cgfay.cameralibrary"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk android:minSdkVersion="21" />
+
+    <application>
+        <activity
+            android:name="com.cgfay.camera.activity.CameraActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/NoActionBarTheme" />
+        <activity android:name="com.cgfay.camera.activity.CameraSettingActivity" />
+        <activity android:name="com.cgfay.camera.activity.WatermarkActivity" />
+    </application>
+
+</manifest>

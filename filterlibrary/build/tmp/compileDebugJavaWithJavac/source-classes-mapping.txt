@@ -1,0 +1,259 @@
+com/cgfay/filter/glfilter/adjust/GLImageBrightnessFilter.java
+ com.cgfay.filter.glfilter.adjust.GLImageBrightnessFilter
+com/cgfay/filter/glfilter/base/GLImageDepthBlurFilter.java
+ com.cgfay.filter.glfilter.base.GLImageDepthBlurFilter
+com/cgfay/filter/glfilter/base/GLImageYUVInputFilter.java
+ com.cgfay.filter.glfilter.base.GLImageYUVInputFilter
+com/cgfay/filter/glfilter/resource/ResourceIndexCodec.java
+ com.cgfay.filter.glfilter.resource.ResourceIndexCodec
+com/cgfay/filter/glfilter/stickers/StaticStickerNormalFilter.java
+ com.cgfay.filter.glfilter.stickers.StaticStickerNormalFilter
+com/cgfay/filter/glfilter/base/GLImage512LookupTableFilter.java
+ com.cgfay.filter.glfilter.base.GLImage512LookupTableFilter
+com/cgfay/filter/glfilter/base/GLImageVignetteFilter.java
+ com.cgfay.filter.glfilter.base.GLImageVignetteFilter
+com/cgfay/filter/glfilter/resource/ResourceCodec.java
+ com.cgfay.filter.glfilter.resource.ResourceCodec
+ com.cgfay.filter.glfilter.resource.ResourceCodec$1
+ com.cgfay.filter.glfilter.resource.ResourceCodec$FileDescription
+com/cgfay/filter/glfilter/stickers/bean/StaticStickerNormalData.java
+ com.cgfay.filter.glfilter.stickers.bean.StaticStickerNormalData
+com/cgfay/filter/glfilter/adjust/GLImageContrastFilter.java
+ com.cgfay.filter.glfilter.adjust.GLImageContrastFilter
+com/cgfay/filter/glfilter/mosaic/GLImageMosaicCircleFilter.java
+ com.cgfay.filter.glfilter.mosaic.GLImageMosaicCircleFilter
+com/cgfay/filter/glfilter/adjust/bean/AdjustParam.java
+ com.cgfay.filter.glfilter.adjust.bean.AdjustParam
+com/cgfay/filter/glfilter/resource/ResourceDataCodec.java
+ com.cgfay.filter.glfilter.resource.ResourceDataCodec
+com/cgfay/filter/glfilter/stickers/GestureHelp.java
+ com.cgfay.filter.glfilter.stickers.GestureHelp
+com/cgfay/filter/glfilter/effect/GLImageEffectScaleFilter.java
+ com.cgfay.filter.glfilter.effect.GLImageEffectScaleFilter
+com/cgfay/filter/glfilter/effect/GLImageEffectBlackWhiteThreeFilter.java
+ com.cgfay.filter.glfilter.effect.GLImageEffectBlackWhiteThreeFilter
+com/cgfay/filter/glfilter/stickers/DynamicStickerLoader.java
+ com.cgfay.filter.glfilter.stickers.DynamicStickerLoader
+com/cgfay/filter/glfilter/beauty/GLImageBeautyAdjustFilter.java
+ com.cgfay.filter.glfilter.beauty.GLImageBeautyAdjustFilter
+com/cgfay/filter/glfilter/stickers/bean/DynamicStickerData.java
+ com.cgfay.filter.glfilter.stickers.bean.DynamicStickerData
+com/cgfay/filter/glfilter/utils/MatrixHelper.java
+ com.cgfay.filter.glfilter.utils.MatrixHelper
+com/cgfay/filter/glfilter/beauty/GLImageBeautyComplexionFilter.java
+ com.cgfay.filter.glfilter.beauty.GLImageBeautyComplexionFilter
+com/cgfay/filter/glfilter/resource/FilterHelper.java
+ com.cgfay.filter.glfilter.resource.FilterHelper
+com/cgfay/filter/glfilter/effect/bean/DynamicEffectData.java
+ com.cgfay.filter.glfilter.effect.bean.DynamicEffectData
+ com.cgfay.filter.glfilter.effect.bean.DynamicEffectData$UniformData
+ com.cgfay.filter.glfilter.effect.bean.DynamicEffectData$UniformSampler
+com/cgfay/filter/glfilter/effect/GLImageEffectMultiBlurFilter.java
+ com.cgfay.filter.glfilter.effect.GLImageEffectMultiBlurFilter
+com/cgfay/filter/glfilter/face/GLImageFaceReshapeFilter.java
+ com.cgfay.filter.glfilter.face.GLImageFaceReshapeFilter
+com/cgfay/filter/glfilter/adjust/GLImageMirrorFilter.java
+ com.cgfay.filter.glfilter.adjust.GLImageMirrorFilter
+com/cgfay/filter/glfilter/beauty/GLImageBeautyFaceFilter.java
+ com.cgfay.filter.glfilter.beauty.GLImageBeautyFaceFilter
+com/cgfay/filter/glfilter/makeup/MakeupPupilLoader.java
+ com.cgfay.filter.glfilter.makeup.MakeupPupilLoader
+com/cgfay/filter/glfilter/utils/TextureRotationUtils.java
+ com.cgfay.filter.glfilter.utils.TextureRotationUtils
+ com.cgfay.filter.glfilter.utils.TextureRotationUtils$1
+com/cgfay/filter/glfilter/effect/GLImageEffectMultiThreeFilter.java
+ com.cgfay.filter.glfilter.effect.GLImageEffectMultiThreeFilter
+com/cgfay/filter/glfilter/effect/bean/DynamicEffect.java
+ com.cgfay.filter.glfilter.effect.bean.DynamicEffect
+com/cgfay/filter/gles/WindowSurface.java
+ com.cgfay.filter.gles.WindowSurface
+com/cgfay/filter/glfilter/resource/ResourceHelper.java
+ com.cgfay.filter.glfilter.resource.ResourceHelper
+com/cgfay/filter/widget/GLImageSurfaceView.java
+ com.cgfay.filter.widget.GLImageSurfaceView
+ com.cgfay.filter.widget.GLImageSurfaceView$1
+ com.cgfay.filter.widget.GLImageSurfaceView$2
+ com.cgfay.filter.widget.GLImageSurfaceView$CaptureCallback
+com/cgfay/filter/glfilter/effect/GLImageEffectShakeFilter.java
+ com.cgfay.filter.glfilter.effect.GLImageEffectShakeFilter
+com/cgfay/filter/audioplayer/AutoFocusPlayer.java
+ com.cgfay.filter.audioplayer.AutoFocusPlayer
+ com.cgfay.filter.audioplayer.AutoFocusPlayer$1
+com/cgfay/filter/glfilter/adjust/bean/IAdjust.java
+ com.cgfay.filter.glfilter.adjust.bean.IAdjust
+com/cgfay/filter/glfilter/adjust/GLImageSharpenFilter.java
+ com.cgfay.filter.glfilter.adjust.GLImageSharpenFilter
+com/cgfay/filter/glfilter/stickers/DynamicStickerNormalFilter.java
+ com.cgfay.filter.glfilter.stickers.DynamicStickerNormalFilter
+com/cgfay/filter/glfilter/effect/GLImageEffectMultiSixFilter.java
+ com.cgfay.filter.glfilter.effect.GLImageEffectMultiSixFilter
+com/cgfay/filter/glfilter/makeup/bean/MakeupType.java
+ com.cgfay.filter.glfilter.makeup.bean.MakeupType
+ com.cgfay.filter.glfilter.makeup.bean.MakeupType$MakeupIndex
+com/cgfay/filter/glfilter/beauty/GLImageBeautyHighPassFilter.java
+ com.cgfay.filter.glfilter.beauty.GLImageBeautyHighPassFilter
+com/cgfay/filter/glfilter/effect/GLImageEffectMultiFourFilter.java
+ com.cgfay.filter.glfilter.effect.GLImageEffectMultiFourFilter
+com/cgfay/filter/glfilter/color/DynamicColorLoader.java
+ com.cgfay.filter.glfilter.color.DynamicColorLoader
+com/cgfay/filter/glfilter/mosaic/GLImageMosaicHexagonFilter.java
+ com.cgfay.filter.glfilter.mosaic.GLImageMosaicHexagonFilter
+com/cgfay/filter/audioplayer/AudioFocusManager.java
+ com.cgfay.filter.audioplayer.AudioFocusManager
+ com.cgfay.filter.audioplayer.AudioFocusManager$1
+ com.cgfay.filter.audioplayer.AudioFocusManager$ManagerHolder
+com/cgfay/filter/glfilter/effect/GLImageEffectMultiTwoFilter.java
+ com.cgfay.filter.glfilter.effect.GLImageEffectMultiTwoFilter
+com/cgfay/filter/glfilter/resource/ResourceJsonCodec.java
+ com.cgfay.filter.glfilter.resource.ResourceJsonCodec
+com/cgfay/filter/glfilter/beauty/GLImageBeautyFilter.java
+ com.cgfay.filter.glfilter.beauty.GLImageBeautyFilter
+com/cgfay/filter/glfilter/mosaic/GLImageMosaicFilter.java
+ com.cgfay.filter.glfilter.mosaic.GLImageMosaicFilter
+com/cgfay/filter/glfilter/effect/DynamicEffectBaseFilter.java
+ com.cgfay.filter.glfilter.effect.DynamicEffectBaseFilter
+com/cgfay/filter/glfilter/resource/ResourceBaseHelper.java
+ com.cgfay.filter.glfilter.resource.ResourceBaseHelper
+com/cgfay/filter/glfilter/beauty/GLImageBeautyBlurFilter.java
+ com.cgfay.filter.glfilter.beauty.GLImageBeautyBlurFilter
+com/cgfay/filter/gles/EglSurfaceBase.java
+ com.cgfay.filter.gles.EglSurfaceBase
+com/cgfay/filter/glfilter/base/GLImage3x3TextureSamplingFilter.java
+ com.cgfay.filter.glfilter.base.GLImage3x3TextureSamplingFilter
+com/cgfay/filter/glfilter/effect/GLImageEffectMultiNineFilter.java
+ com.cgfay.filter.glfilter.effect.GLImageEffectMultiNineFilter
+com/cgfay/filter/glfilter/base/GLImageGaussPassFilter.java
+ com.cgfay.filter.glfilter.base.GLImageGaussPassFilter
+com/cgfay/filter/glfilter/stickers/bean/DynamicStickerNormalData.java
+ com.cgfay.filter.glfilter.stickers.bean.DynamicStickerNormalData
+com/cgfay/filter/glfilter/effect/DynamicEffectFilter.java
+ com.cgfay.filter.glfilter.effect.DynamicEffectFilter
+com/cgfay/filter/glfilter/makeup/bean/MakeupLipstickData.java
+ com.cgfay.filter.glfilter.makeup.bean.MakeupLipstickData
+com/cgfay/filter/glfilter/adjust/GLImageExposureFilter.java
+ com.cgfay.filter.glfilter.adjust.GLImageExposureFilter
+com/cgfay/filter/glfilter/stickers/bean/DynamicStickerFrameData.java
+ com.cgfay.filter.glfilter.stickers.bean.DynamicStickerFrameData
+com/cgfay/filter/glfilter/color/bean/DynamicColor.java
+ com.cgfay.filter.glfilter.color.bean.DynamicColor
+com/cgfay/filter/glfilter/makeup/bean/MakeupMaterialData.java
+ com.cgfay.filter.glfilter.makeup.bean.MakeupMaterialData
+com/cgfay/filter/glfilter/mosaic/GLImageMosaicTriangleFilter.java
+ com.cgfay.filter.glfilter.mosaic.GLImageMosaicTriangleFilter
+com/cgfay/filter/glfilter/stickers/bean/DynamicSticker.java
+ com.cgfay.filter.glfilter.stickers.bean.DynamicSticker
+com/cgfay/filter/glfilter/base/GLImageFilter.java
+ com.cgfay.filter.glfilter.base.GLImageFilter
+ com.cgfay.filter.glfilter.base.GLImageFilter$1
+ com.cgfay.filter.glfilter.base.GLImageFilter$2
+ com.cgfay.filter.glfilter.base.GLImageFilter$3
+ com.cgfay.filter.glfilter.base.GLImageFilter$4
+ com.cgfay.filter.glfilter.base.GLImageFilter$5
+ com.cgfay.filter.glfilter.base.GLImageFilter$6
+ com.cgfay.filter.glfilter.base.GLImageFilter$7
+ com.cgfay.filter.glfilter.base.GLImageFilter$8
+ com.cgfay.filter.glfilter.base.GLImageFilter$9
+com/cgfay/filter/glfilter/resource/bean/ResourceType.java
+ com.cgfay.filter.glfilter.resource.bean.ResourceType
+com/cgfay/filter/ndkfilter/ImageFilter.java
+ com.cgfay.filter.ndkfilter.ImageFilter
+ com.cgfay.filter.ndkfilter.ImageFilter$1
+ com.cgfay.filter.ndkfilter.ImageFilter$ImageFilterHolder
+com/cgfay/filter/glfilter/resource/MakeupHelper.java
+ com.cgfay.filter.glfilter.resource.MakeupHelper
+com/cgfay/filter/glfilter/color/GLImageDynamicColorFilter.java
+ com.cgfay.filter.glfilter.color.GLImageDynamicColorFilter
+com/cgfay/filterlibrary/BuildConfig.java
+ com.cgfay.filterlibrary.BuildConfig
+com/cgfay/filter/glfilter/beauty/bean/BeautyParam.java
+ com.cgfay.filter.glfilter.beauty.bean.BeautyParam
+com/cgfay/filter/glfilter/base/GLImageAudioFilter.java
+ com.cgfay.filter.glfilter.base.GLImageAudioFilter
+ com.cgfay.filter.glfilter.base.GLImageAudioFilter$1
+ com.cgfay.filter.glfilter.base.GLImageAudioFilter$1$1
+ com.cgfay.filter.glfilter.base.GLImageAudioFilter$AudioPlayer
+ com.cgfay.filter.glfilter.base.GLImageAudioFilter$PlayerStatus
+com/cgfay/filter/glfilter/effect/GLImageDynamicEffectFilter.java
+ com.cgfay.filter.glfilter.effect.GLImageDynamicEffectFilter
+com/cgfay/filter/glfilter/multiframe/GLImageFrameEdgeBlurFilter.java
+ com.cgfay.filter.glfilter.multiframe.GLImageFrameEdgeBlurFilter
+com/cgfay/filter/glfilter/effect/GLImageEffectIllusionFilter.java
+ com.cgfay.filter.glfilter.effect.GLImageEffectIllusionFilter
+com/cgfay/filter/glfilter/base/GLImage3X3ConvolutionFilter.java
+ com.cgfay.filter.glfilter.base.GLImage3X3ConvolutionFilter
+com/cgfay/filter/glfilter/resource/bean/ResourceData.java
+ com.cgfay.filter.glfilter.resource.bean.ResourceData
+com/cgfay/filter/glfilter/color/DynamicColorBaseFilter.java
+ com.cgfay.filter.glfilter.color.DynamicColorBaseFilter
+com/cgfay/filter/glfilter/stickers/GLImageDynamicStickerFilter.java
+ com.cgfay.filter.glfilter.stickers.GLImageDynamicStickerFilter
+com/cgfay/filter/glfilter/makeup/MakeupBaseLoader.java
+ com.cgfay.filter.glfilter.makeup.MakeupBaseLoader
+ com.cgfay.filter.glfilter.makeup.MakeupBaseLoader$1
+com/cgfay/filter/glfilter/utils/OpenGLUtils.java
+ com.cgfay.filter.glfilter.utils.OpenGLUtils
+com/cgfay/filter/glfilter/makeup/MakeupVertices.java
+ com.cgfay.filter.glfilter.makeup.MakeupVertices
+com/cgfay/filter/audioplayer/AudioFocusChangeListener.java
+ com.cgfay.filter.audioplayer.AudioFocusChangeListener
+com/cgfay/filter/glfilter/utils/Rotation.java
+ com.cgfay.filter.glfilter.utils.Rotation
+ com.cgfay.filter.glfilter.utils.Rotation$1
+com/cgfay/filter/glfilter/base/GLImageInputFilter.java
+ com.cgfay.filter.glfilter.base.GLImageInputFilter
+com/cgfay/filter/glfilter/multiframe/GLImageDrosteFilter.java
+ com.cgfay.filter.glfilter.multiframe.GLImageDrosteFilter
+com/cgfay/filter/glfilter/stickers/DynamicStickerBaseFilter.java
+ com.cgfay.filter.glfilter.stickers.DynamicStickerBaseFilter
+com/cgfay/filter/glfilter/base/GLImage64LookupTableFilter.java
+ com.cgfay.filter.glfilter.base.GLImage64LookupTableFilter
+com/cgfay/filter/glfilter/makeup/bean/DynamicMakeup.java
+ com.cgfay.filter.glfilter.makeup.bean.DynamicMakeup
+com/cgfay/filter/glfilter/effect/GLImageEffectGlitterWhiteFilter.java
+ com.cgfay.filter.glfilter.effect.GLImageEffectGlitterWhiteFilter
+com/cgfay/filter/glfilter/stickers/DynamicStickerFrameFilter.java
+ com.cgfay.filter.glfilter.stickers.DynamicStickerFrameFilter
+com/cgfay/filter/glfilter/beauty/bean/IBeautify.java
+ com.cgfay.filter.glfilter.beauty.bean.IBeautify
+com/cgfay/filter/glfilter/adjust/GLImageSaturationFilter.java
+ com.cgfay.filter.glfilter.adjust.GLImageSaturationFilter
+com/cgfay/filter/glfilter/base/GLImageOESInputFilter.java
+ com.cgfay.filter.glfilter.base.GLImageOESInputFilter
+com/cgfay/filter/glfilter/makeup/bean/MakeupBaseData.java
+ com.cgfay.filter.glfilter.makeup.bean.MakeupBaseData
+com/cgfay/filter/glfilter/base/GLImageDrawElementsFilter.java
+ com.cgfay.filter.glfilter.base.GLImageDrawElementsFilter
+com/cgfay/filter/glfilter/beauty/GLImageOldBeautyFilter.java
+ com.cgfay.filter.glfilter.beauty.GLImageOldBeautyFilter
+com/cgfay/filter/glfilter/base/GLImageGaussianBlurFilter.java
+ com.cgfay.filter.glfilter.base.GLImageGaussianBlurFilter
+com/cgfay/filter/glfilter/adjust/GLImageHueFilter.java
+ com.cgfay.filter.glfilter.adjust.GLImageHueFilter
+com/cgfay/filter/glfilter/color/bean/DynamicColorData.java
+ com.cgfay.filter.glfilter.color.bean.DynamicColorData
+com/cgfay/filter/gles/EglCore.java
+ com.cgfay.filter.gles.EglCore
+com/cgfay/filter/gles/OffscreenSurface.java
+ com.cgfay.filter.gles.OffscreenSurface
+com/cgfay/filter/glfilter/color/DynamicColorFilter.java
+ com.cgfay.filter.glfilter.color.DynamicColorFilter
+com/cgfay/filter/glfilter/face/GLImageFacePointsFilter.java
+ com.cgfay.filter.glfilter.face.GLImageFacePointsFilter
+com/cgfay/filter/glfilter/effect/GLImageEffectSoulStuffFilter.java
+ com.cgfay.filter.glfilter.effect.GLImageEffectSoulStuffFilter
+com/cgfay/filter/glfilter/makeup/MakeupNormalLoader.java
+ com.cgfay.filter.glfilter.makeup.MakeupNormalLoader
+ com.cgfay.filter.glfilter.makeup.MakeupNormalLoader$1
+com/cgfay/filter/glfilter/adjust/GLImageAdjustFilter.java
+ com.cgfay.filter.glfilter.adjust.GLImageAdjustFilter
+com/cgfay/filter/glfilter/color/bean/DynamicColorBaseData.java
+ com.cgfay.filter.glfilter.color.bean.DynamicColorBaseData
+ com.cgfay.filter.glfilter.color.bean.DynamicColorBaseData$UniformData
+com/cgfay/filter/glfilter/makeup/bean/MakeupNormaData.java
+ com.cgfay.filter.glfilter.makeup.bean.MakeupNormaData
+com/cgfay/filter/glfilter/base/GLImageGroupFilter.java
+ com.cgfay.filter.glfilter.base.GLImageGroupFilter
+com/cgfay/filter/glfilter/effect/GLImageEffectFilter.java
+ com.cgfay.filter.glfilter.effect.GLImageEffectFilter
+com/cgfay/filter/glfilter/makeup/GLImageMakeupFilter.java
+ com.cgfay.filter.glfilter.makeup.GLImageMakeupFilter

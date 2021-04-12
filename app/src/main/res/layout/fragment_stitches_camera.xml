@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/video_window_background">
+
+    <!-- 预览视图 -->
+    <com.cgfay.camera.widget.CameraMeasureFrameLayout
+        android:id="@+id/layout_camera_preview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"></com.cgfay.camera.widget.CameraMeasureFrameLayout>
+
+    <!-- 录制进度条 -->
+    <com.cgfay.camera.widget.RecordProgressView
+        android:id="@+id/record_progress"
+        android:layout_width="0dp"
+        android:layout_height="6dp"
+        android:layout_marginLeft="6dp"
+        android:layout_marginTop="6dp"
+        android:layout_marginRight="6dp"
+        app:divider_width="1dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/layout_camera_preview"
+        app:radius="4dp" />
+
+    <LinearLayout
+        android:id="@+id/llvMusic"
+        android:layout_width="109dp"
+        android:layout_height="33dp"
+        android:layout_marginTop="16dp"
+        android:gravity="center"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        app:bl_corners_radius="17dp"
+        app:bl_solid_color="#33000000"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingPrefix">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/ic_music" />
+
+        <TextView
+            android:id="@+id/music"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:background="@null"
+            android:drawablePadding="8dp"
+            android:ellipsize="marquee"
+            android:gravity="center_vertical"
+            android:marqueeRepeatLimit="marquee_forever"
+            android:singleLine="true"
+            android:text="选择音乐"
+            android:textColor="@android:color/white"
+            android:textSize="14sp" />
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/back"
+        android:layout_width="wrap_content"
+        android:layout_height="54dp"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:src="@mipmap/icon_back_w" />
+
+    <TextView
+        android:id="@+id/switch_camera"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawableTop="@mipmap/ic_camera_switch"
+        android:drawablePadding="6dp"
+        android:gravity="center"
+        android:text="翻转"
+        android:textColor="@android:color/white"
+        android:textSize="11sp" />
+
+    <TextView
+        android:id="@+id/filter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawableTop="@mipmap/ic_filter"
+        android:drawablePadding="6dp"
+        android:gravity="center"
+        android:text="滤镜"
+        android:textColor="@android:color/white"
+        android:textSize="11sp" />
+
+    <TextView
+        android:id="@+id/speed"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawableTop="@mipmap/ic_speed_off"
+        android:drawablePadding="6dp"
+        android:gravity="center"
+        android:text="速度关"
+        android:textColor="@android:color/white"
+        android:textSize="11sp"
+        tools:ignore="MissingPrefix" />
+
+    <TextView
+        android:id="@+id/flash"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawableTop="@mipmap/ic_flash_off"
+        android:drawablePadding="6dp"
+        android:gravity="center"
+        android:text="闪光灯"
+        android:textColor="@android:color/white"
+        android:textSize="11sp"
+        android:visibility="invisible" />
+
+    <androidx.constraintlayout.helper.widget.Flow
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_marginTop="52dp"
+        android:layout_marginRight="15dp"
+        android:orientation="vertical"
+        app:constraint_referenced_ids="switch_camera,filter,speed,flash"
+        app:flow_horizontalAlign="center"
+        app:flow_verticalGap="16dp"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <!-- 速度选择条 -->
+    <com.cgfay.camera.widget.RecordSpeedLevelBar
+        android:id="@+id/record_speed_bar"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginEnd="40dp"
+        android:layout_marginBottom="10dp"
+        android:visibility="gone"
+        app:layout_constraintBottom_toTopOf="@+id/record_time"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/record_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="-5dp"
+        android:textColor="@android:color/white"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toTopOf="@+id/record_button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <com.cgfay.camera.widget.RecordButton
+        android:id="@+id/record_button"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        app:circleColor="@color/color_ff0000"
+        app:circleStrokeWidthMax="12dp"
+        app:circleStrokeWidthMin="6dp"
+        app:layout_constraintBottom_toTopOf="@+id/vBottom"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:rectCorner="5dp"
+        app:rectWidthMax="55dp"
+        app:rectWidthMin="30dp"
+        app:strokeColor="@color/color_66ff0000" />
+
+
+    <ImageView
+        android:id="@+id/done"
+        android:layout_width="36dp"
+        android:layout_height="36dp"
+        android:layout_marginRight="20dp"
+        app:bl_selected_drawable="@mipmap/ic_r_done"
+        app:bl_unSelected_drawable="@mipmap/ic_r_done_nor"
+        app:layout_constraintBottom_toBottomOf="@id/record_button"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="@id/record_button"
+        tools:ignore="MissingPrefix" />
+
+    <ImageView
+        android:id="@+id/delete"
+        android:layout_width="28dp"
+        android:layout_height="28dp"
+        android:layout_marginRight="24dp"
+        android:src="@mipmap/ic_r_del"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="@id/record_button"
+        app:layout_constraintRight_toLeftOf="@id/done"
+        app:layout_constraintTop_toTopOf="@id/record_button"
+        tools:ignore="MissingPrefix" />
+
+    <ImageView
+        android:id="@+id/photo"
+        android:layout_width="36dp"
+        android:layout_height="36dp"
+        android:layout_marginLeft="20dp"
+        android:background="@mipmap/ic_photo"
+        app:layout_constraintBottom_toBottomOf="@id/record_button"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@id/record_button" />
+
+    <View
+        android:id="@+id/vBottom"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:background="@android:color/black"
+        app:layout_constraintBottom_toBottomOf="parent" />
+
+    <com.cgfay.camera.widget.CameraTabView
+        android:id="@+id/tabView"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:tabGravity="center"
+        app:tabMode="scrollable"
+        app:tabSelectedTextColor="@color/white"
+        app:tabTextAppearance="@style/CameraTabTextStyle"
+        app:tabTextColor="@color/color_807e84" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/indicator"
+        android:layout_width="4dp"
+        android:layout_height="4dp"
+        android:layout_marginBottom="10dp"
+        android:src="@android:color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <!--  浮窗容器  -->
+    <FrameLayout
+        android:id="@+id/fragment_bottom_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

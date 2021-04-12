@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_161824">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:animateLayoutChanges="true"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/layout_player"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginBottom="60dp"
+            android:layout_weight="1">
+
+            <com.uenchi.editlibrary.player.V2PlayerView
+                android:id="@+id/player_view"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+            <ImageView
+                android:id="@+id/pause"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/ic_pause"
+                android:visibility="gone"
+                app:layout_constraintBottom_toBottomOf="@id/player_view"
+                app:layout_constraintEnd_toEndOf="@id/player_view"
+                app:layout_constraintStart_toStartOf="@id/player_view"
+                app:layout_constraintTop_toTopOf="@id/player_view" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <RelativeLayout
+            android:id="@+id/layout_effect"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_marginBottom="-200dp"
+            android:background="@android:color/black">
+
+            <FrameLayout
+                android:id="@+id/thumb_container"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="10dp">
+
+                <com.uenchi.stitchescamera.camera.view.V2OverlayThumbLineBar
+                    android:id="@+id/thumb_line_bar"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+            </FrameLayout>
+
+
+            <TextView
+                android:id="@+id/effect_tip_text"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:layout_below="@id/thumb_container"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:gravity="center_vertical"
+                android:text="选择位置后, 按住使用效果"
+                android:textColor="@android:color/white"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/undo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/thumb_container"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="16dp"
+                android:paddingLeft="12dp"
+                android:paddingTop="6dp"
+                android:paddingRight="12dp"
+                android:paddingBottom="6dp"
+                android:text="撤消"
+                android:textColor="@android:color/white"
+                app:bl_corners_radius="6dp"
+                app:bl_selected_drawable="@color/color_ff9800"
+                app:bl_unSelected_drawable="@color/color_aadddddd"
+                tools:ignore="MissingPrefix" />
+
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/effect_recycler_view"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@id/undo"
+                android:layout_marginTop="20dp"
+                android:overScrollMode="never" />
+
+        </RelativeLayout>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/action_bar"
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:background="@android:color/transparent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/back"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            android:src="@mipmap/icon_back_w" />
+
+        <TextView
+            android:id="@+id/next"
+            android:layout_width="57dp"
+            android:layout_height="27dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="16dp"
+            android:layout_marginRight="16dp"
+            android:gravity="center"
+            android:text="下一步"
+            android:textColor="@color/white"
+            android:textSize="14sp"
+            app:bl_corners_radius="2dp"
+            app:bl_solid_color="@color/color_f23454"
+            tools:ignore="MissingPrefix" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/effect_action_bar"
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:background="@android:color/transparent"
+        android:visibility="gone"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/cancel"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            android:text="取消"
+            android:textColor="@android:color/white"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/save"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:gravity="center"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            android:text="保存"
+            android:textColor="@android:color/white"
+            android:textSize="18sp" />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/layout_bottom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:paddingBottom="5dp"
+        app:layout_constraintBottom_toBottomOf="parent">
+
+        <TextView
+            android:id="@+id/tab_effect"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableTop="@mipmap/ic_effect"
+            android:drawablePadding="5dp"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:text="特效"
+            android:textColor="@color/white"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/tab_filter"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableTop="@mipmap/ic_filter2"
+            android:drawablePadding="5dp"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:text="滤镜"
+            android:textColor="@color/white"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/tab_music"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableTop="@mipmap/ic_music3"
+            android:drawablePadding="5dp"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:text="音乐"
+            android:textColor="@color/white"
+            android:textSize="12sp" />
+
+    </LinearLayout>
+    <!--  浮窗容器  -->
+    <FrameLayout
+        android:id="@+id/fragment_bottom_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/progress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

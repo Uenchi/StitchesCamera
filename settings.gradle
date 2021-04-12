@@ -1,0 +1,10 @@
+include ':easyPhotos'
+include ':editlibrary'
+include ':utilslibrary'
+include ':filterlibrary'
+include ':medialibrary'
+include ':gdxlibrary'
+include ':cameralibrary'
+include ':landmarklibrary'
+include ':app'
+rootProject.name = "StitchesCamera"

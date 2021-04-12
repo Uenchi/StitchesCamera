@@ -1,0 +1,49 @@
+com/cgfay/uitls/utils/StringUtils.java
+ com.cgfay.uitls.utils.StringUtils
+com/cgfay/uitls/utils/StateType.java
+ com.cgfay.uitls.utils.StateType
+com/cgfay/uitls/utils/VersionUtils.java
+ com.cgfay.uitls.utils.VersionUtils
+com/cgfay/uitls/utils/BrightnessUtils.java
+ com.cgfay.uitls.utils.BrightnessUtils
+com/cgfay/uitls/scanner/LocalMusicCursorLoader.java
+ com.cgfay.uitls.scanner.LocalMusicCursorLoader
+com/cgfay/uitls/fragment/BackPressedDialogFragment.java
+ com.cgfay.uitls.fragment.BackPressedDialogFragment
+com/cgfay/uitls/utils/DensityUtils.java
+ com.cgfay.uitls.utils.DensityUtils
+com/cgfay/uitls/utils/FileUtils.java
+ com.cgfay.uitls.utils.FileUtils
+com/cgfay/uitls/fragment/PermissionErrorDialogFragment.java
+ com.cgfay.uitls.fragment.PermissionErrorDialogFragment
+com/cgfay/uitls/utils/PermissionUtils.java
+ com.cgfay.uitls.utils.PermissionUtils
+com/cgfay/uitls/widget/RoundOutlineProvider.java
+ com.cgfay.uitls.widget.RoundOutlineProvider
+com/cgfay/uitls/bean/MusicData.java
+ com.cgfay.uitls.bean.MusicData
+ com.cgfay.uitls.bean.MusicData$1
+com/cgfay/uitls/utils/NotchUtils.java
+ com.cgfay.uitls.utils.NotchUtils
+com/cgfay/uitls/adapter/LocalCursorAdapter.java
+ com.cgfay.uitls.adapter.LocalCursorAdapter
+com/cgfay/uitls/dialog/DialogBuilder.java
+ com.cgfay.uitls.dialog.DialogBuilder
+ com.cgfay.uitls.dialog.DialogBuilder$ResBinder
+com/cgfay/uitls/scanner/LocalMusicScanner.java
+ com.cgfay.uitls.scanner.LocalMusicScanner
+ com.cgfay.uitls.scanner.LocalMusicScanner$MusicScanCallbacks
+com/cgfay/utilslibrary/BuildConfig.java
+ com.cgfay.utilslibrary.BuildConfig
+com/cgfay/uitls/fragment/PermissionConfirmDialogFragment.java
+ com.cgfay.uitls.fragment.PermissionConfirmDialogFragment
+com/cgfay/uitls/utils/SystemUtils.java
+ com.cgfay.uitls.utils.SystemUtils
+com/cgfay/uitls/utils/StatusBarUtils.java
+ com.cgfay.uitls.utils.StatusBarUtils
+com/cgfay/uitls/utils/RectUtils.java
+ com.cgfay.uitls.utils.RectUtils
+com/cgfay/uitls/utils/BitmapUtils.java
+ com.cgfay.uitls.utils.BitmapUtils
+com/cgfay/uitls/utils/DisplayUtils.java
+ com.cgfay.uitls.utils.DisplayUtils

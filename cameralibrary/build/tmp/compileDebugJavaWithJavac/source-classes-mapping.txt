@@ -1,0 +1,118 @@
+com/cgfay/camera/camera/CameraController.java
+ com.cgfay.camera.camera.CameraController
+ com.cgfay.camera.camera.CameraController$1
+ com.cgfay.camera.camera.CameraController$CompareAreaSize
+com/cgfay/camera/render/FrameRateMeter.java
+ com.cgfay.camera.render.FrameRateMeter
+com/cgfay/camera/camera/ICameraController.java
+ com.cgfay.camera.camera.ICameraController
+com/cgfay/cameralibrary/BuildConfig.java
+ com.cgfay.cameralibrary.BuildConfig
+com/cgfay/camera/utils/PathConstraints.java
+ com.cgfay.camera.utils.PathConstraints
+com/cgfay/camera/camera/OnSurfaceTextureListener.java
+ com.cgfay.camera.camera.OnSurfaceTextureListener
+com/cgfay/camera/camera/OnFrameAvailableListener.java
+ com.cgfay.camera.camera.OnFrameAvailableListener
+com/cgfay/camera/utils/ViewUtils.java
+ com.cgfay.camera.utils.ViewUtils
+com/cgfay/camera/widget/PreviewMeasureListener.java
+ com.cgfay.camera.widget.PreviewMeasureListener
+com/cgfay/camera/render/GLImageReader.java
+ com.cgfay.camera.render.GLImageReader
+ com.cgfay.camera.render.GLImageReader$ImageAvailable
+ com.cgfay.camera.render.GLImageReader$ImageReceiveListener
+com/cgfay/camera/widget/RecordSpeedLevelBar.java
+ com.cgfay.camera.widget.RecordSpeedLevelBar
+ com.cgfay.camera.widget.RecordSpeedLevelBar$1
+ com.cgfay.camera.widget.RecordSpeedLevelBar$2
+ com.cgfay.camera.widget.RecordSpeedLevelBar$OnSpeedChangedListener
+ com.cgfay.camera.widget.RecordSpeedLevelBar$RecordSpeed
+com/cgfay/camera/widget/CainTextureView.java
+ com.cgfay.camera.widget.CainTextureView
+ com.cgfay.camera.widget.CainTextureView$1
+ com.cgfay.camera.widget.CainTextureView$2
+ com.cgfay.camera.widget.CainTextureView$3
+ com.cgfay.camera.widget.CainTextureView$4
+ com.cgfay.camera.widget.CainTextureView$OnMultiClickListener
+ com.cgfay.camera.widget.CainTextureView$OnTouchScroller
+com/cgfay/camera/render/CameraRenderHandler.java
+ com.cgfay.camera.render.CameraRenderHandler
+com/cgfay/camera/presenter/PreviewPresenter.java
+ com.cgfay.camera.presenter.PreviewPresenter
+com/cgfay/camera/PreviewBuilder.java
+ com.cgfay.camera.PreviewBuilder
+com/cgfay/camera/presenter/IPresenter.java
+ com.cgfay.camera.presenter.IPresenter
+com/cgfay/camera/widget/AnimationUtils.java
+ com.cgfay.camera.widget.AnimationUtils
+com/cgfay/camera/widget/RecordButton.java
+ com.cgfay.camera.widget.RecordButton
+ com.cgfay.camera.widget.RecordButton$RecordMode
+ com.cgfay.camera.widget.RecordButton$RecordStateListener
+ com.cgfay.camera.widget.RecordButton$SwipeDirection
+ com.cgfay.camera.widget.RecordButton$TouchRunnable
+com/cgfay/camera/camera/CalculateType.java
+ com.cgfay.camera.camera.CalculateType
+com/cgfay/camera/model/GalleryType.java
+ com.cgfay.camera.model.GalleryType
+com/cgfay/camera/listener/OnFpsListener.java
+ com.cgfay.camera.listener.OnFpsListener
+com/cgfay/camera/PreviewEngine.java
+ com.cgfay.camera.PreviewEngine
+com/cgfay/camera/render/ScaleType.java
+ com.cgfay.camera.render.ScaleType
+com/cgfay/camera/widget/TabItem.java
+ com.cgfay.camera.widget.TabItem
+com/cgfay/camera/render/RenderManager.java
+ com.cgfay.camera.render.RenderManager
+com/cgfay/camera/utils/ThemeUtils.java
+ com.cgfay.camera.utils.ThemeUtils
+com/cgfay/camera/widget/CameraMeasureFrameLayout.java
+ com.cgfay.camera.widget.CameraMeasureFrameLayout
+ com.cgfay.camera.widget.CameraMeasureFrameLayout$OnMeasureListener
+com/cgfay/camera/widget/RecordCountDownView.java
+ com.cgfay.camera.widget.RecordCountDownView
+ com.cgfay.camera.widget.RecordCountDownView$CountDownHandler
+ com.cgfay.camera.widget.RecordCountDownView$OnCountDownListener
+com/cgfay/camera/model/AspectRatio.java
+ com.cgfay.camera.model.AspectRatio
+com/cgfay/camera/camera/PreviewCallback.java
+ com.cgfay.camera.camera.PreviewCallback
+com/cgfay/camera/listener/OnCaptureListener.java
+ com.cgfay.camera.listener.OnCaptureListener
+com/cgfay/camera/camera/CameraApi.java
+ com.cgfay.camera.camera.CameraApi
+com/cgfay/camera/widget/CameraTabView.java
+ com.cgfay.camera.widget.CameraTabView
+ com.cgfay.camera.widget.CameraTabView$1
+ com.cgfay.camera.widget.CameraTabView$2
+ com.cgfay.camera.widget.CameraTabView$AdapterChangeListener
+ com.cgfay.camera.widget.CameraTabView$IndicatorGravity
+ com.cgfay.camera.widget.CameraTabView$Mode
+ com.cgfay.camera.widget.CameraTabView$OnTabSelectedListener
+ com.cgfay.camera.widget.CameraTabView$PagerAdapterObserver
+ com.cgfay.camera.widget.CameraTabView$SlidingTabIndicator
+ com.cgfay.camera.widget.CameraTabView$SlidingTabIndicator$1
+ com.cgfay.camera.widget.CameraTabView$SlidingTabIndicator$2
+ com.cgfay.camera.widget.CameraTabView$Tab
+ com.cgfay.camera.widget.CameraTabView$TabGravity
+ com.cgfay.camera.widget.CameraTabView$TabLayoutOnPageChangeListener
+ com.cgfay.camera.widget.CameraTabView$TabView
+ com.cgfay.camera.widget.CameraTabView$ViewPagerOnTabSelectedListener
+com/cgfay/camera/utils/MaterialResources.java
+ com.cgfay.camera.utils.MaterialResources
+com/cgfay/camera/camera/ImageConvert.java
+ com.cgfay.camera.camera.ImageConvert
+ com.cgfay.camera.camera.ImageConvert$ColorFormat
+com/cgfay/camera/listener/OnPreviewCaptureListener.java
+ com.cgfay.camera.listener.OnPreviewCaptureListener
+ com.cgfay.camera.listener.OnPreviewCaptureListener$MediaType
+com/cgfay/camera/camera/CameraParam.java
+ com.cgfay.camera.camera.CameraParam
+com/cgfay/camera/widget/RecordProgressView.java
+ com.cgfay.camera.widget.RecordProgressView
+com/cgfay/camera/render/CameraRenderer.java
+ com.cgfay.camera.render.CameraRenderer
+com/cgfay/camera/render/RenderIndex.java
+ com.cgfay.camera.render.RenderIndex

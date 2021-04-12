@@ -1,0 +1,28 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.cgfay.cameralibrary"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk android:minSdkVersion="21" />
+7-->E:\mine\project\StitchesCamera\cameralibrary\src\main\AndroidManifest.xml
+8
+9    <application>
+9-->E:\mine\project\StitchesCamera\cameralibrary\src\main\AndroidManifest.xml:5:5-12:19
+10        <activity
+10-->E:\mine\project\StitchesCamera\cameralibrary\src\main\AndroidManifest.xml:6:9-9:51
+11            android:name="com.cgfay.camera.activity.CameraActivity"
+11-->E:\mine\project\StitchesCamera\cameralibrary\src\main\AndroidManifest.xml:7:13-68
+12            android:screenOrientation="portrait"
+12-->E:\mine\project\StitchesCamera\cameralibrary\src\main\AndroidManifest.xml:9:13-49
+13            android:theme="@style/NoActionBarTheme" />
+13-->E:\mine\project\StitchesCamera\cameralibrary\src\main\AndroidManifest.xml:8:13-52
+14        <activity android:name="com.cgfay.camera.activity.CameraSettingActivity" />
+14-->E:\mine\project\StitchesCamera\cameralibrary\src\main\AndroidManifest.xml:10:9-84
+14-->E:\mine\project\StitchesCamera\cameralibrary\src\main\AndroidManifest.xml:10:19-81
+15        <activity android:name="com.cgfay.camera.activity.WatermarkActivity" />
+15-->E:\mine\project\StitchesCamera\cameralibrary\src\main\AndroidManifest.xml:11:9-79
+15-->E:\mine\project\StitchesCamera\cameralibrary\src\main\AndroidManifest.xml:11:19-77
+16    </application>
+17
+18</manifest>

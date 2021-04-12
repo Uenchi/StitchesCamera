@@ -1,0 +1,156 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    xmlns:tools="http://schemas.android.com/tools"
+4    package="com.huantansheng.easyphotos"
+5    android:versionCode="1"
+6    android:versionName="1.0" >
+7
+8    <uses-sdk
+9        android:minSdkVersion="19"
+9-->E:\mine\project\StitchesCamera\easyPhotos\src\main\AndroidManifest.xml
+10        android:targetSdkVersion="29" />
+10-->E:\mine\project\StitchesCamera\easyPhotos\src\main\AndroidManifest.xml
+11
+12    <uses-feature android:name="android.hardware.camera" />
+12-->E:\mine\project\StitchesCamera\easyPhotos\src\main\AndroidManifest.xml:7:5-60
+12-->E:\mine\project\StitchesCamera\easyPhotos\src\main\AndroidManifest.xml:7:19-57
+13    <uses-feature android:name="android.hardware.camera.autofocus" />
+13-->E:\mine\project\StitchesCamera\easyPhotos\src\main\AndroidManifest.xml:8:5-70
+13-->E:\mine\project\StitchesCamera\easyPhotos\src\main\AndroidManifest.xml:8:19-67
+14
+15    <uses-permission android:name="android.permission.CAMERA" />
+15-->E:\mine\project\StitchesCamera\easyPhotos\src\main\AndroidManifest.xml:10:5-65
+15-->E:\mine\project\StitchesCamera\easyPhotos\src\main\AndroidManifest.xml:10:22-62
+16    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+16-->E:\mine\project\StitchesCamera\easyPhotos\src\main\AndroidManifest.xml:11:5-71
+16-->E:\mine\project\StitchesCamera\easyPhotos\src\main\AndroidManifest.xml:11:22-68
+17    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+17-->E:\mine\project\StitchesCamera\easyPhotos\src\main\AndroidManifest.xml:12:5-80
+17-->E:\mine\project\StitchesCamera\easyPhotos\src\main\AndroidManifest.xml:12:22-77
+18    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+18-->E:\mine\project\StitchesCamera\easyPhotos\src\main\AndroidManifest.xml:13:5-81
+18-->E:\mine\project\StitchesCamera\easyPhotos\src\main\AndroidManifest.xml:13:22-78
+19    <uses-permission android:name="android.permission.FLASHLIGHT" />
+19-->E:\mine\project\StitchesCamera\easyPhotos\src\main\AndroidManifest.xml:14:5-69
+19-->E:\mine\project\StitchesCamera\easyPhotos\src\main\AndroidManifest.xml:14:22-66
+20    <uses-permission
+20-->E:\mine\project\StitchesCamera\easyPhotos\src\main\AndroidManifest.xml:15:5-17:47
+21        android:name="android.permission.WRITE_SETTINGS"
+21-->E:\mine\project\StitchesCamera\easyPhotos\src\main\AndroidManifest.xml:16:9-57
+22        tools:ignore="ProtectedPermissions" />
+22-->E:\mine\project\StitchesCamera\easyPhotos\src\main\AndroidManifest.xml:17:9-44
+23    <uses-permission
+23-->E:\mine\project\StitchesCamera\easyPhotos\src\main\AndroidManifest.xml:18:5-20:47
+24        android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS"
+24-->E:\mine\project\StitchesCamera\easyPhotos\src\main\AndroidManifest.xml:19:9-68
+25        tools:ignore="ProtectedPermissions" />
+25-->E:\mine\project\StitchesCamera\easyPhotos\src\main\AndroidManifest.xml:20:9-44
+26
+27    <application
+27-->E:\mine\project\StitchesCamera\easyPhotos\src\main\AndroidManifest.xml:23:5-79:19
+28        android:allowBackup="true"
+28-->E:\mine\project\StitchesCamera\easyPhotos\src\main\AndroidManifest.xml:24:9-35
+29        android:supportsRtl="true" >
+29-->E:\mine\project\StitchesCamera\easyPhotos\src\main\AndroidManifest.xml:25:9-35
+30        <provider
+30-->E:\mine\project\StitchesCamera\easyPhotos\src\main\AndroidManifest.xml:26:9-34:20
+31            android:name="com.huantansheng.easyphotos.utils.provider.EasyPhotosFileProvider"
+31-->E:\mine\project\StitchesCamera\easyPhotos\src\main\AndroidManifest.xml:27:13-93
+32            android:authorities="${applicationId}.provider"
+32-->E:\mine\project\StitchesCamera\easyPhotos\src\main\AndroidManifest.xml:28:13-60
+33            android:exported="false"
+33-->E:\mine\project\StitchesCamera\easyPhotos\src\main\AndroidManifest.xml:29:13-37
+34            android:grantUriPermissions="true" >
+34-->E:\mine\project\StitchesCamera\easyPhotos\src\main\AndroidManifest.xml:30:13-47
+35            <meta-data
+35-->E:\mine\project\StitchesCamera\easyPhotos\src\main\AndroidManifest.xml:31:13-33:61
+36                android:name="android.support.FILE_PROVIDER_PATHS"
+36-->E:\mine\project\StitchesCamera\easyPhotos\src\main\AndroidManifest.xml:32:17-67
+37                android:resource="@xml/file_paths_public" />
+37-->E:\mine\project\StitchesCamera\easyPhotos\src\main\AndroidManifest.xml:33:17-58
+38        </provider>
+39
+40        <activity
+40-->E:\mine\project\StitchesCamera\easyPhotos\src\main\AndroidManifest.xml:36:9-40:54
+41            android:name="com.huantansheng.easyphotos.ui.EasyPhotosActivity"
+41-->E:\mine\project\StitchesCamera\easyPhotos\src\main\AndroidManifest.xml:37:13-50
+42            android:configChanges="orientation|keyboardHidden|screenSize"
+42-->E:\mine\project\StitchesCamera\easyPhotos\src\main\AndroidManifest.xml:38:13-74
+43            android:screenOrientation="portrait"
+43-->E:\mine\project\StitchesCamera\easyPhotos\src\main\AndroidManifest.xml:39:13-49
+44            android:theme="@style/EasyPhotosTheme" />
+44-->E:\mine\project\StitchesCamera\easyPhotos\src\main\AndroidManifest.xml:40:13-51
+45        <activity
+45-->E:\mine\project\StitchesCamera\easyPhotos\src\main\AndroidManifest.xml:41:9-45:64
+46            android:name="com.huantansheng.easyphotos.ui.PreviewActivity"
+46-->E:\mine\project\StitchesCamera\easyPhotos\src\main\AndroidManifest.xml:42:13-47
+47            android:configChanges="orientation|keyboardHidden|screenSize"
+47-->E:\mine\project\StitchesCamera\easyPhotos\src\main\AndroidManifest.xml:43:13-74
+48            android:screenOrientation="portrait"
+48-->E:\mine\project\StitchesCamera\easyPhotos\src\main\AndroidManifest.xml:44:13-49
+49            android:theme="@style/EasyPhotosFullscreenTheme" />
+49-->E:\mine\project\StitchesCamera\easyPhotos\src\main\AndroidManifest.xml:45:13-61
+50        <activity
+50-->E:\mine\project\StitchesCamera\easyPhotos\src\main\AndroidManifest.xml:46:9-51:55
+51            android:name="com.huantansheng.easyphotos.ui.PuzzleActivity"
+51-->E:\mine\project\StitchesCamera\easyPhotos\src\main\AndroidManifest.xml:47:13-46
+52            android:configChanges="orientation|keyboardHidden|screenSize"
+52-->E:\mine\project\StitchesCamera\easyPhotos\src\main\AndroidManifest.xml:48:13-74
+53            android:screenOrientation="portrait"
+53-->E:\mine\project\StitchesCamera\easyPhotos\src\main\AndroidManifest.xml:49:13-49
+54            android:theme="@style/EasyPhotosTheme"
+54-->E:\mine\project\StitchesCamera\easyPhotos\src\main\AndroidManifest.xml:50:13-51
+55            android:windowSoftInputMode="adjustPan" />
+55-->E:\mine\project\StitchesCamera\easyPhotos\src\main\AndroidManifest.xml:51:13-52
+56        <activity
+56-->E:\mine\project\StitchesCamera\easyPhotos\src\main\AndroidManifest.xml:53:9-57:54
+57            android:name="com.huantansheng.easyphotos.ui.PuzzleSelectorActivity"
+57-->E:\mine\project\StitchesCamera\easyPhotos\src\main\AndroidManifest.xml:54:13-54
+58            android:configChanges="orientation|keyboardHidden|screenSize"
+58-->E:\mine\project\StitchesCamera\easyPhotos\src\main\AndroidManifest.xml:55:13-74
+59            android:screenOrientation="portrait"
+59-->E:\mine\project\StitchesCamera\easyPhotos\src\main\AndroidManifest.xml:56:13-49
+60            android:theme="@style/EasyPhotosTheme" />
+60-->E:\mine\project\StitchesCamera\easyPhotos\src\main\AndroidManifest.xml:57:13-51
+61        <activity
+61-->E:\mine\project\StitchesCamera\easyPhotos\src\main\AndroidManifest.xml:58:9-73:20
+62            android:name="com.huantansheng.easyphotos.ui.EasyCameraActivity"
+62-->E:\mine\project\StitchesCamera\easyPhotos\src\main\AndroidManifest.xml:59:13-50
+63            android:configChanges="orientation|keyboardHidden|screenSize"
+63-->E:\mine\project\StitchesCamera\easyPhotos\src\main\AndroidManifest.xml:60:13-74
+64            android:theme="@style/EasyPhotosTheme" >
+64-->E:\mine\project\StitchesCamera\easyPhotos\src\main\AndroidManifest.xml:61:13-51
+65            <meta-data
+65-->E:\mine\project\StitchesCamera\easyPhotos\src\main\AndroidManifest.xml:62:13-64:39
+66                android:name="android.max_aspect"
+66-->E:\mine\project\StitchesCamera\easyPhotos\src\main\AndroidManifest.xml:63:17-50
+67                android:value="2.4" />
+67-->E:\mine\project\StitchesCamera\easyPhotos\src\main\AndroidManifest.xml:64:17-36
+68            <!-- 适配华为（huawei）刘海屏 -->
+69            <meta-data
+69-->E:\mine\project\StitchesCamera\easyPhotos\src\main\AndroidManifest.xml:66:13-68:40
+70                android:name="android.notch_support"
+70-->E:\mine\project\StitchesCamera\easyPhotos\src\main\AndroidManifest.xml:67:17-53
+71                android:value="true" />
+71-->E:\mine\project\StitchesCamera\easyPhotos\src\main\AndroidManifest.xml:68:17-37
+72            <!-- 适配小米（xiaomi）刘海屏 -->
+73            <meta-data
+73-->E:\mine\project\StitchesCamera\easyPhotos\src\main\AndroidManifest.xml:70:13-72:54
+74                android:name="notch.config"
+74-->E:\mine\project\StitchesCamera\easyPhotos\src\main\AndroidManifest.xml:71:17-44
+75                android:value="portrait|landscape" />
+75-->E:\mine\project\StitchesCamera\easyPhotos\src\main\AndroidManifest.xml:72:17-51
+76        </activity>
+77        <activity
+77-->E:\mine\project\StitchesCamera\easyPhotos\src\main\AndroidManifest.xml:74:9-78:45
+78            android:name="com.yalantis.ucrop.UCropActivity"
+78-->E:\mine\project\StitchesCamera\easyPhotos\src\main\AndroidManifest.xml:75:13-60
+79            android:screenOrientation="portrait"
+79-->E:\mine\project\StitchesCamera\easyPhotos\src\main\AndroidManifest.xml:76:13-49
+80            android:theme="@style/Theme.AppCompat.Light.NoActionBar"
+80-->E:\mine\project\StitchesCamera\easyPhotos\src\main\AndroidManifest.xml:77:13-69
+81            tools:replace="android:theme" />
+81-->E:\mine\project\StitchesCamera\easyPhotos\src\main\AndroidManifest.xml:78:13-42
+82    </application>
+83
+84</manifest>

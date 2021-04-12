@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="album_item_count_easy_photos">#4f5555</color>
+    <color name="album_item_name_easy_photos">#3e4145</color>
+    <color name="album_items_background_easy_photos">#FFFFFF</color>
+    <color name="colorPrimaryDark">#303135</color>
+    <color name="easy_photos_bar_primary">#393a3f</color>
+    <color name="easy_photos_bar_primary_dark">#303135</color>
+    <color name="easy_photos_bar_primary_translation">#eb212123</color>
+    <color name="easy_photos_bg_primary">#000000</color>
+    <color name="easy_photos_camera_fg_accent">#00AA00</color>
+    <color name="easy_photos_camera_fg_primary">#ffffff</color>
+    <color name="easy_photos_fg_accent">#00AA00</color>
+    <color name="easy_photos_fg_primary">#ffffff</color>
+    <color name="easy_photos_fg_primary_dark">#9b9b9b</color>
+    <color name="easy_photos_status_bar">#393a3f</color>
+    <color name="menu_text_easy_photos">#FFFFFF</color>
+    <color name="text_sticker_black_easy_photos">#000000</color>
+    <color name="text_sticker_blue_easy_photos">#4a90e2</color>
+    <color name="text_sticker_cyan_easy_photos">#50e3c2</color>
+    <color name="text_sticker_editor_fragment_bar_easy_photos">#393a3f</color>
+    <color name="text_sticker_editor_fragment_bg_easy_photos">#2c2e30</color>
+    <color name="text_sticker_gray_easy_photos">#4a4a4a</color>
+    <color name="text_sticker_green_easy_photos">#7ed321</color>
+    <color name="text_sticker_orange_easy_photos">#f5a623</color>
+    <color name="text_sticker_purple_easy_photos">#9013fe</color>
+    <color name="text_sticker_red_easy_photos">#d0021b</color>
+    <color name="text_sticker_white_easy_photos">#ffffff</color>
+    <color name="text_sticker_yellow_easy_photos">#f8e71c</color>
+    <color name="transparent_easy_photos">#00000000</color>
+    <color name="ucrop_color_blaze_orange">@color/easy_photos_fg_accent</color>
+    <color name="white_easy_photos">#FFFFFF</color>
+    <dimen name="sticker_text_size_easy_photos">16sp</dimen>
+    <dimen name="toolbar_size_easy_photos">42dp</dimen>
+    <integer name="photos_columns_easy_photos">4</integer>
+    <string name="app_name">EasyPhotos</string>
+    <string name="camera_temp_file_error_easy_photos">图片错误</string>
+    <string name="cancel_easy_photos">取消</string>
+    <string name="compressing_picture">压缩中…</string>
+    <string name="done_easy_photos">完成</string>
+    <string name="edit_easy_photos">编辑</string>
+    <string name="empty_easy_photos">清空</string>
+    <string name="gif_easy_photos">动图</string>
+    <string name="long_press_camera">长按摄像</string>
+    <string name="missing_audio_permission">没有录音权限</string>
+    <string name="msg_no_camera_easy_photos">无法启动相机！</string>
+    <string name="msg_no_file_easy_photos">文件不存在或损坏！</string>
+    <string name="no_photos_easy_photos">没有符合要求的媒体文件</string>
+    <string name="original_easy_photos">原图</string>
+    <string name="permissions_again_easy_photos">请点击并允许相关权限</string>
+    <string name="permissions_die_easy_photos">请点击并在设置中允许相关权限</string>
+    <string name="picture_selection_easy_photos">图片选择</string>
+    <string name="preview_current_number_easy_photos">%1$d/%2$d</string>
+    <string name="puzzle_easy_photos">拼一张</string>
+    <string name="recording_too_short">录制时间过短</string>
+    <string name="select_puzzle_photos">请选择2 \- 9张照片</string>
+    <string name="selector_action_done_easy_photos">完成(%1$d/%2$d)</string>
+    <string name="selector_easy_photos">选择</string>
+    <string name="selector_folder_all_easy_photos">所有图片</string>
+    <string name="selector_folder_all_video_photo_easy_photos">图片和视频</string>
+    <string name="selector_folder_video_easy_photos">所有视频</string>
+    <string name="selector_image_size_error_easy_photos">图片的宽度必须大于%1$d,高度必须大于%2$d</string>
+    <string name="selector_image_type_error_easy_photos">不支持此图片格式</string>
+    <string name="selector_mutual_exclusion_easy_photos">不能同时选择图片或视频</string>
+    <string name="selector_permission_error_easy_photos">权限错误，无法正常工作！</string>
+    <string name="selector_preview_easy_photos">预览</string>
+    <string name="selector_reach_max_hint_easy_photos">最多只能选择%d张图片或视频</string>
+    <string name="selector_reach_max_image_hint_easy_photos">最多只能选择%d张图片</string>
+    <string name="selector_reach_max_video_hint_easy_photos">最多只能选择%d个视频</string>
+    <string name="tap_take_photo">轻触拍照</string>
+    <string name="tap_take_photo_long_press_camera_split">，</string>
+    <string name="template_easy_photos">模板</string>
+    <string name="text_sticker_date_easy_photos">日期</string>
+    <string name="text_sticker_easy_photos">文字</string>
+    <string name="text_sticker_hint_easy_photos">双击编辑</string>
+    <string name="text_sticker_hint_name_easy_photos">自定义</string>
+    <string name="ucrop_activity_title">裁剪</string>
+    <string name="ucrop_crop">裁剪</string>
+    <string name="ucrop_rotate">旋转</string>
+    <string name="ucrop_scale">缩放</string>
+    <string name="video_easy_photos">视频</string>
+    <string name="video_selection_easy_photos">视频选择</string>
+    <style name="EasyPhotosFullscreenTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowActionBarOverlay">true</item>
+        <item name="android:windowBackground">@null</item>
+        <item name="easyMetaButtonBarStyle">?android:attr/buttonBarStyle</item>
+        <item name="easyMetaButtonBarButtonStyle">?android:attr/buttonBarButtonStyle</item>
+    </style>
+    <style name="EasyPhotosTheme" parent="Theme.AppCompat.Light.NoActionBar"/>
+    <declare-styleable name="ButtonBarContainerTheme">
+        <attr format="reference" name="easyMetaButtonBarStyle"/>
+        <attr format="reference" name="easyMetaButtonBarButtonStyle"/>
+    </declare-styleable>
+    <declare-styleable name="JCameraView">
+        <attr format="dimension" name="easy_iconSize"/>
+        <attr format="dimension" name="easy_iconMargin"/>
+        <attr format="reference" name="easy_iconSrc"/>
+        <attr format="reference" name="easy_iconLeft"/>
+        <attr format="reference" name="easy_iconRight"/>
+        <attr format="integer" name="easy_duration_max"/>
+    </declare-styleable>
+    <declare-styleable name="PuzzleView">
+        <attr format="integer" name="easy_line_size"/>
+        <attr format="color" name="easy_line_color"/>
+        <attr format="color" name="easy_selected_line_color"/>
+        <attr format="color" name="easy_handle_bar_color"/>
+        <attr format="boolean" name="easy_need_draw_line"/>
+        <attr format="boolean" name="easy_need_draw_outer_line"/>
+        <attr format="dimension" name="easy_piece_padding"/>
+        <attr format="integer" name="easy_animation_duration"/>
+        <attr format="float" name="easy_radian"/>
+    </declare-styleable>
+    <declare-styleable name="SubsamplingScaleImageView">
+        <attr format="reference" name="easy_src"/>
+        <attr format="string" name="easy_assetName"/>
+        <attr format="boolean" name="easy_panEnabled"/>
+        <attr format="boolean" name="easy_zoomEnabled"/>
+        <attr format="boolean" name="easy_quickScaleEnabled"/>
+        <attr format="color" name="easy_tileBackgroundColor"/>
+    </declare-styleable>
+</resources>

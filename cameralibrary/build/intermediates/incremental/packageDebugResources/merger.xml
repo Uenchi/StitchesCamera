@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="main$Generated" generated="true" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="E:\mine\project\StitchesCamera\cameralibrary\src\main\res"/><source path="E:\mine\project\StitchesCamera\cameralibrary\build\generated\res\rs\debug"/><source path="E:\mine\project\StitchesCamera\cameralibrary\build\generated\res\resValues\debug"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="main" generated-set="main$Generated" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="E:\mine\project\StitchesCamera\cameralibrary\src\main\res"><file name="preivew_slide_down" path="E:\mine\project\StitchesCamera\cameralibrary\src\main\res\anim\preivew_slide_down.xml" qualifiers="" type="anim"/><file name="preview_slide_up" path="E:\mine\project\StitchesCamera\cameralibrary\src\main\res\anim\preview_slide_up.xml" qualifiers="" type="anim"/><file name="bg_record_speed" path="E:\mine\project\StitchesCamera\cameralibrary\src\main\res\drawable\bg_record_speed.xml" qualifiers="" type="drawable"/><file name="bg_record_speed_select" path="E:\mine\project\StitchesCamera\cameralibrary\src\main\res\drawable\bg_record_speed_select.xml" qualifiers="" type="drawable"/><file name="video_focus" path="E:\mine\project\StitchesCamera\cameralibrary\src\main\res\drawable-xhdpi\video_focus.png" qualifiers="xhdpi-v4" type="drawable"/><file path="E:\mine\project\StitchesCamera\cameralibrary\src\main\res\values\attrs.xml" qualifiers=""><declare-styleable name="RecordProgressView">
+        <attr format="dimension|reference" name="radius"/>
+        <attr format="color|reference" name="bg_color"/>
+        <attr format="color|reference" name="content_color"/>
+        <attr format="color|reference" name="divider_color"/>
+        <attr format="dimension|reference" name="divider_width"/>
+    </declare-styleable><declare-styleable name="RecordButton">
+        <attr format="dimension|reference" name="circleStrokeWidthMin"/>
+        <attr format="dimension|reference" name="circleStrokeWidthMax"/>
+        <attr format="color|reference" name="strokeColor"/>
+        <attr format="color|reference" name="circleColor"/>
+        <attr format="dimension|reference" name="rectCorner"/>
+        <attr format="dimension|reference" name="rectWidthMax"/>
+        <attr format="dimension|reference" name="rectWidthMin"/>
+    </declare-styleable></file><file path="E:\mine\project\StitchesCamera\cameralibrary\src\main\res\values\colors.xml" qualifiers=""><color name="popup_text_normal">#333333</color><color name="popup_text_select">@color/gold</color><color name="popup_text_color">@color/white</color><color name="popup_background">#55FFFFFF</color><color name="shutter_gray_dark">#EE2A2A2A</color><color name="shutter_gray_light">#AA696969</color><color name="shutter_blue">#3394EC</color><color name="shutter_green">#90EE90</color><color name="record_red">@color/red</color><color name="record_stroke_red">#66FF0000</color><color name="effect_title_background">#AA696969</color><color name="effect_content_background">#AA808080</color></file><file path="E:\mine\project\StitchesCamera\cameralibrary\src\main\res\values\dimen.xml" qualifiers=""><dimen name="bottom_gallery_layout_height">120dp</dimen><dimen name="record_width_height_normal">100dp</dimen><dimen name="record_width_height_small">50dp</dimen><dimen name="preview_sticker_size">35dp</dimen><dimen name="preview_album_size">30dp</dimen><dimen name="camera_tab_height">60dp</dimen><dimen name="button_margin_horizontal">40dp</dimen><dimen name="bottom_layout_margin">10dp</dimen><dimen name="button_preview_width_height">35dp</dimen><dimen name="button_preview_margin">10dp</dimen><dimen name="top_button_width_height">35dp</dimen><dimen name="top_button_margin">20dp</dimen><dimen name="fps_margin_top">70dp</dimen><dimen name="fps_margin">20dp</dimen><dimen name="compare_size">41dp</dimen><dimen name="compare_margin_end">20dp</dimen><dimen name="compare_margin_bottom">50dp</dimen><dimen name="preview_item_size">70dp</dimen><dimen name="setting_image_size">20dp</dimen><dimen name="setting_padding">10dp</dimen><dimen name="setting_split_height">1dp</dimen><dimen name="setting_margin">10dp</dimen><dimen name="switch_min_width">60dp</dimen><dimen name="preview_effect_reset_margin">20dp</dimen><dimen name="setting_page_margin_top">20dp</dimen><dimen name="setting_page_margin_start">10dp</dimen><dimen name="setting_page_margin_end">10dp</dimen></file><file path="E:\mine\project\StitchesCamera\cameralibrary\src\main\res\values\strings.xml" qualifiers=""><string name="app_name">CameraLibrary</string><string name="delete_last_video_tips">删除上一段视频？</string><string name="btn_delete">删除</string><string name="combine_video_message">正在合并视频...</string><string name="tv_flash">闪光灯</string><string name="tv_flash_front">柔光自拍</string><string name="tv_time_lapse">延时拍摄</string><string name="tv_luminous_compensation">夜拍补光</string><string name="tv_edge_blur">边框模糊</string><string name="tv_touch_take">触屏拍照</string><string name="tv_camera_setting">相机设置</string><string name="tv_select_music">选择音乐</string><string name="btn_stickers">道具</string><string name="btn_media">上传</string><string name="tab_preview_beauty">美颜</string><string name="tab_preview_makeup">美妆</string><string name="tab_preview_filter">滤镜</string><string-array name="preview_beauty">
+        <item>磨皮</item>
+        <item>肤色</item>
+        <item>瘦脸</item>
+        <item>削脸</item>
+        <item>小脸</item>
+        <item>下巴</item>
+        <item>法令纹</item>
+        <item>额头</item>
+        <item>大眼</item>
+        <item>眼距</item>
+        <item>眼角</item>
+        <item>卧蚕</item>
+        <item>眼袋</item>
+        <item>亮眼</item>
+        <item>瘦鼻</item>
+        <item>鼻翼</item>
+        <item>长鼻</item>
+        <item>嘴型</item>
+        <item>美牙</item>
+    </string-array><string-array name="preview_makeup">
+        <item>口红</item>
+        <item>腮红</item>
+        <item>阴影</item>
+        <item>眉毛</item>
+        <item>眼影</item>
+        <item>眼线</item>
+        <item>睫毛</item>
+        <item>双眼皮</item>
+        <item>瞳孔</item>
+    </string-array><string name="makeup_clear">一键清除</string><string name="tab_picture">拍照</string><string name="tab_video_60s">拍60秒</string><string name="tab_video_15s">拍15秒</string><string name="tab_video_picture">影集</string><string-array name="record_speed_texts">
+        <item>极慢</item>
+        <item>慢</item>
+        <item>标准</item>
+        <item>快</item>
+        <item>极快</item>
+    </string-array><string name="preview_beauty_reset">恢复默认</string><string name="select_watermark">选择水印</string><string name="show_face_points">显示人脸关键点</string><string name="hide_face_points">隐藏人脸关键点</string><string name="show_fps">显示fps</string><string name="hide_fps">隐藏fps</string></file><file path="E:\mine\project\StitchesCamera\cameralibrary\src\main\res\values\styles.xml" qualifiers=""><style name="NoActionBarTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/video_window_background</item>
+        <item name="colorPrimaryDark">@color/video_window_background</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:navigationBarColor">@color/video_window_background</item>
+    </style><style name="CameraDialogAnimation">
+        <item name="android:windowEnterAnimation">@anim/anim_slide_up</item>
+        <item name="android:windowExitAnimation">@anim/anim_slide_down</item>
+    </style><style name="CameraBottomDialogStyle" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@color/transparent</item>
+        <item name="android:windowIsFloating">false</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:backgroundDimEnabled">false</item>
+        <item name="android:windowAnimationStyle">@style/CameraDialogAnimation</item>
+    </style><style name="CameraTabTextStyle">
+        <item name="android:textSize">@dimen/dp16</item>
+        <item name="android:textStyle">bold</item>
+    </style></file></source><source path="E:\mine\project\StitchesCamera\cameralibrary\build\generated\res\rs\debug"/><source path="E:\mine\project\StitchesCamera\cameralibrary\build\generated\res\resValues\debug"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="debug$Generated" generated="true" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="E:\mine\project\StitchesCamera\cameralibrary\src\debug\res"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="debug" generated-set="debug$Generated" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="E:\mine\project\StitchesCamera\cameralibrary\src\debug\res"/></dataSet><mergedItems><configuration qualifiers=""><declare-styleable name="RecordButton">
+        <attr format="dimension|reference" name="circleStrokeWidthMin"/>
+        <attr format="dimension|reference" name="circleStrokeWidthMax"/>
+        <attr format="color|reference" name="strokeColor"/>
+        <attr format="color|reference" name="circleColor"/>
+        <attr format="dimension|reference" name="rectCorner"/>
+        <attr format="dimension|reference" name="rectWidthMax"/>
+        <attr format="dimension|reference" name="rectWidthMin"/>
+    </declare-styleable><declare-styleable name="RecordProgressView">
+        <attr format="dimension|reference" name="radius"/>
+        <attr format="color|reference" name="bg_color"/>
+        <attr format="color|reference" name="content_color"/>
+        <attr format="color|reference" name="divider_color"/>
+        <attr format="dimension|reference" name="divider_width"/>
+    </declare-styleable></configuration></mergedItems></merger>

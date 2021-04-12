@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <View
+        android:id="@+id/vBG"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/recycler_view" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignTop="@id/recycler_view"
+        android:alpha="0.8"
+        android:background="@color/color_161824" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@android:color/transparent"
+        android:paddingTop="26dp"
+        android:paddingBottom="26dp" />
+
+    <ImageView
+        android:id="@+id/vDel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/recycler_view"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="10dp"
+        app:bl_selected_drawable="@mipmap/icon_del_sel"
+        app:bl_unSelected_drawable="@mipmap/icon_del_nor"
+        tools:ignore="MissingPrefix" />
+</RelativeLayout>

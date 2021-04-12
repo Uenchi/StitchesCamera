@@ -1,0 +1,50 @@
+com/badlogic/gdx/math/Shape2D.java
+ com.badlogic.gdx.math.Shape2D
+com/badlogic/gdx/math/Viewport.java
+ com.badlogic.gdx.math.Viewport
+com/badlogic/gdx/math/Vector3.java
+ com.badlogic.gdx.math.Vector3
+com/badlogic/gdx/math/Camera.java
+ com.badlogic.gdx.math.Camera
+com/badlogic/gdx/math/Circle.java
+ com.badlogic.gdx.math.Circle
+com/badlogic/gdx/math/GdxRuntimeException.java
+ com.badlogic.gdx.math.GdxRuntimeException
+com/badlogic/gdx/math/Plane.java
+ com.badlogic.gdx.math.Plane
+ com.badlogic.gdx.math.Plane$PlaneSide
+com/badlogic/gdx/math/Rectangle.java
+ com.badlogic.gdx.math.Rectangle
+com/badlogic/gdx/math/Affine2.java
+ com.badlogic.gdx.math.Affine2
+com/badlogic/gdx/math/Matrix4.java
+ com.badlogic.gdx.math.Matrix4
+com/badlogic/gdx/math/Ray.java
+ com.badlogic.gdx.math.Ray
+com/badlogic/gdx/math/BoundingBox.java
+ com.badlogic.gdx.math.BoundingBox
+com/badlogic/gdx/math/Frustum.java
+ com.badlogic.gdx.math.Frustum
+com/badlogic/gdx/math/InputProcessor.java
+ com.badlogic.gdx.math.InputProcessor
+com/badlogic/gdx/math/Vector2.java
+ com.badlogic.gdx.math.Vector2
+com/badlogic/gdx/math/InputAdapter.java
+ com.badlogic.gdx.math.InputAdapter
+com/badlogic/gdx/math/Quaternion.java
+ com.badlogic.gdx.math.Quaternion
+com/badlogic/gdx/math/NumberUtils.java
+ com.badlogic.gdx.math.NumberUtils
+com/badlogic/gdx/math/RandomXS128.java
+ com.badlogic.gdx.math.RandomXS128
+com/badlogic/gdx/math/Matrix3.java
+ com.badlogic.gdx.math.Matrix3
+com/badlogic/gdx/math/Vector.java
+ com.badlogic.gdx.math.Vector
+com/badlogic/gdx/math/MathUtils.java
+ com.badlogic.gdx.math.MathUtils
+ com.badlogic.gdx.math.MathUtils$Sin
+com/badlogic/gdx/math/OrthographicCamera.java
+ com.badlogic.gdx.math.OrthographicCamera
+com/badlogic/gdx/BuildConfig.java
+ com.badlogic.gdx.BuildConfig
